@@ -11,15 +11,7 @@ function Accordion(props:AccordionPropsType) {
             <AccordionTitle title ={props.titleValue}/>
         </div>
     }
-    if(props.collapsed === false){
-        return (
-            <div>
-                <AccordionTitle title ={props.titleValue}/>
-                <AccordionBody/>
-            </div>
-        )
-    }
-
+    
     return (
         <div>
             <AccordionTitle title ={props.titleValue}/>
